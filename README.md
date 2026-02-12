@@ -13,6 +13,3 @@ These samples are meant to help you **learn, test, and implement authentication 
 - **PHP + HTML** – Easy-to-understand sample code
 
 ---
-
-## 📁 Folder Structure
-
