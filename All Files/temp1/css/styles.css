@@ -1,0 +1,104 @@
+/* General Styles */
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #495f47;
+   
+    background-image:  linear-gradient(30deg, #11130e 12%, transparent 12.5%, transparent 87%, #11130e 87.5%, #11130e), linear-gradient(150deg, #11130e 12%, transparent 12.5%, transparent 87%, #11130e 87.5%, #11130e), linear-gradient(30deg, #11130e 12%, transparent 12.5%, transparent 87%, #11130e 87.5%, #11130e), linear-gradient(150deg, #11130e 12%, transparent 12.5%, transparent 87%, #11130e 87.5%, #11130e), linear-gradient(60deg, #11130e77 25%, transparent 25.5%, transparent 75%, #11130e77 75%, #11130e77), linear-gradient(60deg, #11130e77 25%, transparent 25.5%, transparent 75%, #11130e77 75%, #11130e77);
+    background-size: 14px 25px;
+    background-position: 0 0, 0 0, 7px 12px, 7px 12px, 0 0, 7px 12px;
+    color: #e8ebe4;
+}
+
+/* Header */
+header {
+    /* Header Color */
+    padding: 10px 0; /* Increased padding for the header */
+    background-color: #495f47;
+
+background-image: radial-gradient(#2b3a14 2px, #495f47 2px);
+background-size: 40px 40px;
+}
+
+header h1 {
+    color: #e8ebe4; /* Text Color */
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em; /* Increase font size */
+}
+/* Navigation */
+nav {
+    background-color: #b7bfa9; /* Nav Bar Color */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #11130e; /* Link Color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #7e9f81; /* Accent Color */
+}
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #868b7c; /* Primary Color */
+    margin: 20px auto; /* Added margin for spacing */
+    border-radius: 8px;
+    max-width: 800px;
+   
+}
+
+section:nth-child(even) {
+    background-color: #495f47; /* Secondary Color */
+}
+
+h1, h2 {
+    color: #e8ebe4; /* Text Color */
+}
+
+p {
+    color: #11130e; /* Background Color for contrast in paragraphs */
+}
+
+/* Footer */
+footer {
+    background-color: #495f47; /* Footer Color */
+    color: #e8ebe4; /* Text Color */
+    text-align: center;
+    padding: 20px 0; /* Increased padding for better spacing */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2em; /* Increased font size for readability */
+    border-top: 3px solid #7e9f81; /* Added a top border for contrast */
+}
+
+footer a {
+    color: #7e9f81; /* Accent Color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
